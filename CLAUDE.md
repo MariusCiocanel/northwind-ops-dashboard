@@ -12,9 +12,11 @@ You are helping the ops team at **Northwind Coffee Co.**, a direct-to-consumer c
 
 ## Where things are
 
-- `context/` — **read this first.** Who the team is and what they care about.
-  - `team-context.md` — the team, their roles, what they need from a dashboard.
+- `context/` — **read this first.** Who the team is and what they care about. Mixed formats on purpose (Word + Markdown) — read all of them.
+  - `team-context.docx` — the team, their roles, what they need from a dashboard (Word doc).
   - `2026-06-04-leadership-sync.md` — notes from last week's leadership sync. These call out the **priority metrics** the dashboard and briefing should center on. Anchor your work to this.
+  - `data-dictionary.md` — what every table and column in the spreadsheets means. Read this before loading the data.
+  - `briefing-style-guide.md` — how the team wants the morning briefing written. Use it when you build the briefing.
 - `data/` — the raw data, as the team actually keeps it (messy spreadsheets, multiple tables per sheet).
   - `sales.xlsx` — orders and returns. This becomes the **Sales** tab.
   - `inventory.xlsx` — stock on hand and inbound purchase orders. This becomes the **Inventory** tab.
