@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/db.ts","./src/main.tsx","./src/queries.ts","./src/vite-env.d.ts","./src/components/filterbar.tsx","./src/components/inventorytab.tsx","./src/components/kpicard.tsx","./src/components/salestab.tsx"],"version":"6.0.3"}

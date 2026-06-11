@@ -34,3 +34,7 @@ Thumbs.db
 
 # Claude Code machine-local settings (shared CLAUDE.md stays tracked)
 .claude/settings.local.json
+node_modules
+dist
+data/northwind.db
+public/northwind.db
