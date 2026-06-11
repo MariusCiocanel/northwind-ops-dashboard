@@ -104,6 +104,7 @@ insertMany('inbound_pos', Array(8).fill(''), pos, (r) => [
 ])
 
 db.close()
+mkdirSync(path.join(root, 'public'), { recursive: true })
 copyFileSync(dbPath, path.join(root, 'public', 'northwind.db'))
 console.log(
   `Loaded: ${orders.length} order lines, ${returns.length} returns, ${onHand.length} inventory SKUs, ${pos.length} POs → ${dbPath} (+ public/northwind.db)`
