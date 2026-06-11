@@ -38,3 +38,4 @@ node_modules
 dist
 data/northwind.db
 public/northwind.db
+*.tsbuildinfo
